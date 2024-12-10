@@ -1,0 +1,80 @@
+@font-face {
+    font-family: caviar;
+    src: url(CaviarDreams.ttf);
+}
+@font-face {
+    font-family:stretchpro;
+    src: url(StretchPro.otf);
+}
+@font-face {
+    font-family: abduction;
+    src: url(abduction2002.ttf);
+}
+@font-face {
+    font-family: builder;
+    src: url(BUILDER.ttf);
+}
+nav{
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-top:0%;
+    padding-top: 0%;
+    font-family: stretchpro;
+    font-size: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(16, 34, 56),rgba(50, 163, 212, 0.768));    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 0%;
+    color: rgb(247, 247, 247);
+    font-size: 160%;
+    font-family: stretchpro;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: rgb(50, 164, 212);
+    font-size: 670%;
+    font-weight: lighter;
+    font-family: abduction;
+}
+h5{
+    font-family: built;
+    font-weight: lighter;
+}
+p{
+    margin-top: 3%;
+    margin-left: 2%;
+    color: white;
+    font-size:100%;
+    font-family: caviar;
+    font-weight: 50;
+}
+button{
+    color: white;
+    background-color: none;
+}
+@media (max-width:500px){
+    nav{
+        font-size: 100%;
+    }
+    h3{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 100px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
